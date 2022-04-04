@@ -1,0 +1,43 @@
+.flexbox{
+
+    display: flex;
+    width: 150px;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px 10px;
+    box-shadow: 0px 0px 3px 3px rgba(180, 180, 180, 0.678);
+    padding: 5px;
+    
+}
+
+.flexbox2{
+
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        justify-content: space-between;
+
+}
+
+.imagenRedonda{
+
+        width:150px;
+        height:150px;
+        border-radius:10px 10px;
+
+}
+
+
+.roundedhr{
+
+        border: 0.5px solid rgb(80, 80, 80);
+    
+}
+
+.name{font-weight: bold; font-size: 15px; margin:5px}
+.desc{font-size: 12px; color:grey; margin:5px}
+.precio{margin:5px}
+.encarro{color: grey; font-size: 12px; margin:5px}
+.uds{font-weight: bold; font-size: 20px; margin:5px}
+.botonsumar{font-size: 17px; border-color:black; background-color:yellow; border-radius: 30px; height:30px; width: 30px; padding:1px}
+.botonrestar{font-size: 17px; border-color:black; border-radius: 30px; height:30px; width: 30px; padding:1px}
